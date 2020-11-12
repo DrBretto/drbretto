@@ -8,9 +8,6 @@ export default class NavBar extends React.Component {
             <a href="#intro">Introduction</a>
           </li>
           <li>
-            <a href="#about">About</a>
-          </li>
-          <li>
             <a href="#projects">Projects</a>
           </li>
           <li>

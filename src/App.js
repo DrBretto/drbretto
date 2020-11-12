@@ -50,8 +50,6 @@ function App() {
             src="https://www.youtube.com/embed/9ucrTAKL3PM"
           ></iframe>
 
-          <p>Tech Stack: Placeholder</p>
-
           <p>
             This is a fully functioning image recognition neural network modeled
             in Minecraft. It's based on how our own brains recognize images. It
