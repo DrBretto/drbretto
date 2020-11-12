@@ -1,3 +1,71 @@
+body {
+  overflow-x: hidden;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(../images/background.jpg);
+}
+
+html > * {
+  text-shadow: -0.1em 0 0.125em black, 0 0.1em 0.125em black,
+    0.1em 0 0.125em black, 0 -0.1em 0.125em black;
+}
+
 .App {
   text-align: center;
+
+  /* background-repeat: no-repeat; */
+  width: 100vw;
+  max-width: 600px;
+}
+
+nav {
+  position: absolute;
+  right: 0.1em;
+  top: 0.1em;
+}
+
+.topBar {
+  position: relative;
+}
+
+h1,
+h2 {
+  line-height: 3em;
+  color: rgb(255, 102, 0);
+  font-weight: 900;
+}
+h3 {
+  line-height: 2em;
+  color: rgb(229, 255, 0);
+}
+
+.projects {
+  padding: 2em;
+  border: 1pc solid red;
+}
+
+.project {
+  /* border: 1px solid red; */
+}
+
+a {
+  color: rgb(255, 166, 0);
+}
+a:hover {
+  color: #ff0000;
+}
+
+p {
+  margin: 1em;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+}
+input {
+  margin-left: 1em;
+  margin-right: 1em;
 }
