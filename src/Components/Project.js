@@ -2,15 +2,17 @@ import React from "react";
 export default class Project extends React.Component {
   render() {
     console.log(this.props);
-
-    const image=this.props.imageURL
+    const image = this.props.imageURL;
     return (
       <div className="project dark window">
         <h3>{this.props.title}</h3>
-        <a href={this.props.link}>{this.props.linkText}</a>
-        <img src={this.props.image} alt={this.props.alt} width="100%" />
+        <img src={image} alt={this.props.alt} width="80%" />
         <p>Tech Stack: {this.props.stack}</p>
         <p>{this.props.description}</p>
+        <a href={this.props.link} target="_blank" rel="noreferrer">
+          {this.props.linkText}
+        </a>
+        <p>Technology used: {this.props.technology}</p>
       </div>
     );
   }
@@ -18,6 +20,7 @@ export default class Project extends React.Component {
 
 /*
 
+http://localhost:3000/images/dividend.jpg
 http://localhost:3000/images/dividend.jpg
 
           title="Dividend Calculator"

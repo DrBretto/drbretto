@@ -3,6 +3,9 @@ import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import Project from "./Components/Project";
 
+import dividend from "./images/dividend.jpg";
+import battleship from "./images/battleship.jpg";
+
 function App() {
   return (
     <div className="App light">
@@ -10,34 +13,32 @@ function App() {
         <Header></Header>
       </div>
 
-      <Intro></Intro>
+      <Intro id="about"></Intro>
 
       <div id="projects">
         <h2>Projects:</h2>
 
         <Project
-          title="Dividend Calculator"
-          link="https://github.com/DrBretto/dividend-calculator-app"
+          title="Space Battleship!"
+          link="https://github.com/mloldacre/battleship-jmkbh"
           linkText="GutHub Link"
-          imageURL="./images/dividend.jpg"
+          imageURL={battleship}
           alt="Dividend Calculator preview"
-          description="description"
-          stack="Full Stack"
+          description="Goal was to design and deploy a fully-featured web app as a part of a team. Space Battleship is a new take on the classic Battleship board game.. in space! Features original music and sound effects, online multiplayer and adaptive, neural network based AI.
+          My responsibilities were to design the back-end game logic to meet our current goals as well as set up a framework for adding additional features."
+          stack="Full-Stack"
           technology="React, PostrgreSQL, Node"
         ></Project>
 
         <Project
-          image="url here"
-          title="title"
-          description="description"
-          stack="tech stack"
-        ></Project>
-
-        <Project
-          image="url here"
-          title="title"
-          description="description"
-          stack="tech stack"
+          title="Dividend Calculator"
+          link="https://github.com/DrBretto/dividend-calculator-app"
+          linkText="GutHub Link"
+          imageURL={dividend}
+          alt="Dividend Calculator preview"
+          description="Full-Stack application built from the ground up for Thinkful - Allows the user to calculate dividend allocation and save portfolios. This was a solo full-stack project with proper authentication and database setup."
+          stack="Full-Stack"
+          technology="React, PostrgreSQL, Node"
         ></Project>
 
         <div className="project dark window">
@@ -69,7 +70,7 @@ function App() {
         </div>
       </div>
 
-      <h2>Contact me:</h2>
+      <h2 id="contact">Contact me:</h2>
 
       <Footer></Footer>
     </div>
