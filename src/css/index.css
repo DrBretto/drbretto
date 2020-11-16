@@ -4,7 +4,7 @@ body {
   align-items: center;
   flex-direction: column;
   background-image: url(../images/background.jpg);
-  background-repeat: no-repeat;
+  background-repeat: round;
   background-attachment: fixed;
 }
 
@@ -18,7 +18,11 @@ html > * {
 
   /* background-repeat: no-repeat; */
   width: 100vw;
-  max-width: 600px;
+  max-width: 800px;
+}
+
+img {
+  margin: 1em;
 }
 
 nav {

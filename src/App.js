@@ -5,6 +5,7 @@ import Project from "./Components/Project";
 
 import dividend from "./images/dividend.jpg";
 import battleship from "./images/battleship.jpg";
+import wordistry from "./images/wordistry.jpg";
 
 function App() {
   return (
@@ -20,26 +21,56 @@ function App() {
 
         <Project
           title="Space Battleship!"
-          link="https://github.com/mloldacre/battleship-jmkbh"
-          linkText="GutHub Link"
+          liveLink="https://spacebattleship.vercel.app/"
+          gitLink="https://github.com/mloldacre/battleship-jmkbh"
+          apiLink="https://github.com/mloldacre/battleship-server-jmkbh"
           imageURL={battleship}
-          alt="Dividend Calculator preview"
-          description="Goal was to design and deploy a fully-featured web app as a part of a team. Space Battleship is a new take on the classic Battleship board game.. in space! Features original music and sound effects, online multiplayer and adaptive, neural network based AI.
-          My responsibilities were to design the back-end game logic to meet our current goals as well as set up a framework for adding additional features."
+          alt="Space Battleship"
+          whoFor="People who like board games, video games and Artificial Intelligence"
+          description="Space Battleship is a new take on the classic Battleship board game.. in space! 
+          Features original music and sound effects, online multiplayer and adaptive, neural network based AI.
+          Goal was to design and deploy a fully-featured web app as a part of a team. 
+          My responsibilities were to design the back-end game logic to meet our current goals as well as set up a 
+          framework for adding additional features."
           stack="Full-Stack"
           technology="React, PostrgreSQL, Node"
         ></Project>
 
         <Project
           title="Dividend Calculator"
-          link="https://github.com/DrBretto/dividend-calculator-app"
-          linkText="GutHub Link"
+          liveLink="https://dividend-calculator-app.vercel.app/"
+          gitLink="https://github.com/DrBretto/dividend-calculator-app"
+          apiLink="https://github.com/DrBretto/dividend-calculator-api"
           imageURL={dividend}
           alt="Dividend Calculator preview"
-          description="Full-Stack application built from the ground up for Thinkful - Allows the user to calculate dividend allocation and save portfolios. This was a solo full-stack project with proper authentication and database setup."
+          whoFor="Investors looking to experiment with different dividend portfolios"
+          description="Full-Stack application built from the ground up for Thinkful - Allows the user to 
+          calculate dividend allocation and save portfolios. 
+          This was a solo full-stack project with proper authentication and database setup."
           stack="Full-Stack"
           technology="React, PostrgreSQL, Node"
         ></Project>
+
+        <Project
+          title="Wordistry"
+          liveLink="https://spaced-repetition-matthew-brett-client.vercel.app/"
+          gitLink="https://github.com/thinkful-ei-quail/spaced-repetition-matthew-brett-client"
+          apiLink="https://github.com/thinkful-ei-quail/spaced-repetition-matthew-brett-api"
+          imageURL={wordistry}
+          alt="Wordistry"
+          whoFor="Anyone who wants to learn a new language"
+          description="Wordistry is a spaced repetition learning app. The app will ask you to translate words from
+          your language of choice. Words you answer correctly bubble back to the top of the list. Words you struggle
+          with come up more often.
+          
+          This project was intended to demonstrate an understanding of algorithms and data structures."
+          stack="Full-Stack"
+          technology="React, PostrgreSQL, Node"
+        ></Project>
+
+        {/* The following project is not part of the grading rubric. Please do not mark as incomplete. 
+This entry does not have a tech stack or a github to link to. I have added in a third project to meet the
+grading requirements (Wordistry, our take on the spaced repetition app) */}
 
         <div className="project dark window">
           <h3>Bonus project: Minecraft Neural Network!</h3>
