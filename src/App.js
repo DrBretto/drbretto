@@ -4,7 +4,7 @@ import Header from "./Components/Header";
 import Project from "./Components/Project";
 
 import dividend from "./images/dividend.jpg";
-import battleship from "./images/battleship.gif";
+import battleship from "./images/BattleshipAI.gif";
 import wordistry from "./images/wordistry.jpg";
 
 function App() {
