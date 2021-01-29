@@ -4,7 +4,7 @@ import Header from "./Components/Header";
 import Project from "./Components/Project";
 
 import dividend from "./images/dividend.jpg";
-import battleship from ".images/battleship.gif";
+import battleship from "./images/battleship.gif";
 import wordistry from "./images/wordistry.jpg";
 
 function App() {
@@ -67,10 +67,6 @@ function App() {
           stack="Full-Stack"
           technology="React, PostrgreSQL, Node"
         ></Project>
-
-        {/* The following project is not part of the grading rubric. Please do not mark as incomplete. 
-This entry does not have a tech stack or a github to link to. I have added in a third project to meet the
-grading requirements (Wordistry, our take on the spaced repetition app) */}
 
         <div className="project dark window">
           <h3>Bonus project: Minecraft Neural Network!</h3>
