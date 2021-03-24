@@ -18,8 +18,8 @@ export default class Intro extends React.Component {
           demonstrated. <br />
           <br />I took responsibility for my choices and committed to turning my
           life round. I faced myself head on. Tackled my bad habits and
-          attitudes one-by-one. Quit smoking. Quit drinking. Rebuilt my credit.
-          Bought a house. <br />
+          attitudes one-by-one. Quit smoking. Quit drinking. Ate vegetables.
+          Lost weight. Rebuilt my credit. Bought a house. <br />
           <br />I took the long way 'round. But what I lack in experience, I
           make up for in *experience*. If you represent a comfortable working
           environment that values and nurtures continued development, I would
