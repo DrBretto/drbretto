@@ -3,7 +3,7 @@ import React from "react";
 export default class Intro extends React.Component {
   render() {
     return (
-      <section id="intro" className="dark">
+      <section id="intro" className="dark window">
         <p>
           Welcome! This website is under construction. <br />
           <br /> Above is a brief introduction. Just a brief backstory and

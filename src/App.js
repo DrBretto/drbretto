@@ -51,7 +51,7 @@ function App() {
           technology="React, PostrgreSQL, Node"
         ></Project>
 
-        <Project
+        {/* <Project
           title="Wordistry"
           liveLink="https://spaced-repetition-matthew-brett-client.vercel.app/"
           gitLink="https://github.com/thinkful-ei-quail/spaced-repetition-matthew-brett-client"
@@ -66,7 +66,7 @@ function App() {
           This project was intended to demonstrate an understanding of algorithms and data structures."
           stack="Full-Stack"
           technology="React, PostrgreSQL, Node"
-        ></Project>
+        ></Project> */}
 
         <div className="project dark window">
           <h3>Bonus project: Minecraft Neural Network!</h3>
