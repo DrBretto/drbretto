@@ -3,7 +3,7 @@ export default class Footer extends React.Component {
   render() {
     return (
       <footer>
-        <p>© Copyright 2020</p>
+        <p>© Copyright 2021</p>
 
         <ul>
           <li>
