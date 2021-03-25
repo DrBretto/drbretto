@@ -30,10 +30,11 @@ function App() {
           description="Space Battleship is a new take on the classic Battleship board game.. in space! 
           Features original music and sound effects, online multiplayer and adaptive, neural network based AI.
           Goal was to design and deploy a fully-featured web app as a part of a team. 
-          My responsibilities were to design the back-end game logic to meet our current goals as well as set up a 
-          framework for adding additional features. Mainly, this project was to show off the neural network I wrote from 
-          scratch for the AI as well as an ability to work with a group in an agile development environment. 
-          My role was as the architect of the game logic and functionality."
+          My responsibilities were to architect the back-end game logic to meet our current goals as well as set up a 
+          framework for adding additional features. Admittedly, this project is here to show off the neural network I wrote from 
+          scratch for the AI as well as an ability to work with a group in an agile development environment. Unfortunately, 
+          the AI is not playable publicly. Neural Networks are not well suited for javascript. It was for educational purposes only. 
+          "
           stack="Full-Stack"
           technology="React, PostrgreSQL, Node"
         ></Project>
@@ -46,10 +47,10 @@ function App() {
           imageURL={dividend}
           alt="Dividend Calculator preview"
           whoFor="Investors looking to experiment with different dividend portfolios"
-          description="Full-Stack application built from the ground up to demonstrate competency - Allows the user to 
+          description="Full-Stack application built from the ground up to demonstrate competency. This is the best project to look at 
+          for code review - Allows the user to 
           calculate dividend allocation and save portfolios. 
-          This was a solo full-stack project with proper authentication and database setup. 
-          As a solo full-stack project written from scratch, this is the best one to use for a code review."
+          This was a solo full-stack project with proper authentication and database setup. "
           stack="Full-Stack"
           technology="React, PostrgreSQL, Node"
         ></Project>
@@ -90,9 +91,7 @@ function App() {
           <p>
             It is silly to have a minecraft project on a professional profile,
             but this is an accurate representation of my abstract thinking
-            skills. It doesn't matter what "language" it's written in, it's a
-            fully functional neural network. I built it just to better
-            understand the structure.
+            skills. It doesn't matter what "language" it's written in.
           </p>
           <p>
             Reverse engineered from{" "}
@@ -100,7 +99,7 @@ function App() {
               this source code
             </a>{" "}
             and originally written for an episode of YouTube Premium's
-            MindField.
+            MindField. It was built for educational purposes. I learned a lot.
           </p>
         </div>
       </div>
