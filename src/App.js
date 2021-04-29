@@ -28,7 +28,7 @@ function App() {
           alt="Dividend Calculator preview"
           whoFor="Investors looking to experiment with different dividend portfolios"
           description="A dividend strategy calculator. Allows the user to 
-          calculate dividend allocation and save portfolios."
+          calculate dividend allocation strategies and save portfolios to a server securely."
           purpose="This project was intended to be a complete, full stack project built from the ground up. It demonstrates good coding practices and structure."
           stack="Full-Stack"
           technology="React, PostrgreSQL, Node"
