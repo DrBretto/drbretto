@@ -96,9 +96,7 @@ function App() {
             about any numerical digit that you will visually recognize.
           </p>
           <p>
-            It is silly to have a minecraft project on a professional profile,
-            but this is an accurate representation of my abstract thinking
-            skills. It doesn't matter what "language" it's written in.
+            It is silly to have a minecraft project on a professional profile, but this was how I learned the structure and inner workings of a neural network. It took about 300 hours of hand placing every piece. The insight I gleaned in the process of making it continue to blow my own mind every day, and drives my plans for the future. 
           </p>
           <p>
             Reverse engineered from{" "}
