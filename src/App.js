@@ -42,17 +42,25 @@ function App() {
           imageURL={battleship}
           alt="Space Battleship"
           whoFor="People who like board games, video games and Artificial Intelligence"
-          purpose="This project was to demonstrate teamwork. It was an exercise meant to emulate an agile development cycle. The project itself is quite small, but this was produced from the planning to completion in 3 weeks. I was particularly enthusiastic and that infected the whole group. Everyone brought their A-game and we had an absolute blast completing it.  "
+          purpose="This project was to demonstrate teamwork. It was an exercise meant to emulate an agile development cycle. 
+
+           My responsibilities were to architect the back-end game logic to meet our current goals as well as set up a 
+           framework for adding additional features. I also ended up taking over most of the interactive pieces on the front 
+           end, and designed a neural network from scratch, in javascript so I would have to write it from understanding 
+           instead of copying and pasting. Unfortunately, the bot is unplayable publicly due to issues that arise from 
+           writing it in a language that's not meant for it. It was, however, an amazing experience when I got it to work. 
+           It will beat randomly generated moves within a simulated game or two about 85%. After around 10,000 games, it will 
+           win up to 99.7% and challenge human intelligence. "
           description="Space Battleship is a new take on the classic Battleship board game.. in space! 
-          Features original music and sound effects, online multiplayer and adaptive, neural network based AI.
-          My responsibilities were to architect the back-end game logic to meet our current goals as well as set up a 
-          framework for adding additional features. I also ended up taking over most of the interactive pieces on the front end, and designed a neural network from scratch, in javascript so I would have to write it from understanding instead of copying and pasting. Unfortunately, the bot is unplayable publicly due to issues that arise from writing it in a language that's not meant for it. It was, however, an amazing experience when I got it to work. It will beat randomly generated moves within a simulated game or two about 85%. After around 10,000 games, it will win up to 99.7% and challenge human intelligence. 
+          Features original music and sound effects, online multiplayer and adaptive, neural network based AI. 
+          The project itself is quite small, but this was produced from the planning to completion with 5 strangers in 3 weeks. 
+          I was particularly enthusiastic and that infected the whole group. Everyone brought their A-game and
+           we had an absolute blast completing it.  
+  
           "
           stack="Full-Stack"
           technology="React, PostrgreSQL, Node"
         ></Project>
-
-     
 
         {/* <Project
           title="Wordistry"
