@@ -11,7 +11,9 @@ export default class Project extends React.Component {
         </a>
         <p>Tech Stack: {this.props.stack}</p>
         <p>Who this app is for: {this.props.whoFor}</p>
+        <p>Description:</p>
         <p>{this.props.description}</p>
+        <p>Purpose:</p>
         <p>{this.props.purpose}</p>
         <div>
           <a href={this.props.gitLink} target="_blank" rel="noreferrer">
