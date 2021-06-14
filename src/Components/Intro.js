@@ -5,10 +5,8 @@ export default class Intro extends React.Component {
     return (
       <section id="intro" className="dark window">
         <p>
-          Welcome! This website is under construction. Please forgive the
-          general "geocities" vibe. I am applying for nuts and bolts work at
-          this time, not design. I assure you, I can duplicate any layout
-          required. :) <br />
+          Welcome! This website is under construction. I am applying for nuts and bolts work at
+          this time. :) <br />
           <br /> Above is a brief introduction. Just a brief backstory and
           preview of my general vibe.
           <br />
@@ -23,18 +21,13 @@ export default class Intro extends React.Component {
           Quit drinking. Ate vegetables. Lost weight. Rebuilt my credit. Bought
           a house. <br />
           <br />
-          Now, I am putting the same effort into realizing my potential. I am
-          done skating by and wasting my mind. I have always understood tech
-          intuitively. I was meant for this work. I could find a bug in a
-          language I've never learned, written in wingdings because I have a
-          deep intuitive understanding of the underlying patterns. If your
-          company is the right environment, I am a moldable ball of raging
-          passion and untapped talent ready to be unleashed.
+          Now in a state of self-actualization, I am putting the same effort into realizing my potential. I am
+          done skating by and wasting my mind. I was meant for this work. My primary motivation for finding a job
+          is to support a lifetime of learning. 
           <br />
-          <br />I am best suited as a full-stack generalist rather than a front
-          or back end specialist, but the only thing I can't do is give birth.
-          And honestly, if I was motivated enough, I'd find a way to do that
-          too.
+          <br />
+          
+          
         </p>
       </section>
     );

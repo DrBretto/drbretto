@@ -96,7 +96,10 @@ function App() {
             about any numerical digit that you will visually recognize.
           </p>
           <p>
-            It is silly to have a minecraft project on a professional profile, but this was how I learned the structure and inner workings of a neural network. It took about 300 hours of hand placing every piece. The insight I gleaned in the process of making it continue to blow my own mind every day, and drives my plans for the future. 
+            I found this to be the best way to learn the inner workings of a neural network.
+            It too over 300 hours of hand placing every piece. I spent the time contemplating
+            the networks from every angle. Dreamt of all the ways I could use these principles 
+            to solve unsolvable problems. A purpose was born. 
           </p>
           <p>
             Reverse engineered from{" "}
