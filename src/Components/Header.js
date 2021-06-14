@@ -10,7 +10,7 @@ export default class Header extends React.Component {
         {/* <img src={profilePic} alt={"DrBretto"} width="100px"/> */}
         <h1>Brett Westerlund - Full Stack Software Engineer</h1>
         <NavBar></NavBar>
-        <iframe
+        {/* <iframe
          
           width="400px"
           height="300px"
@@ -18,7 +18,7 @@ export default class Header extends React.Component {
           src="https://youtube.com/embed/1UExypQQCK8"
         >
           {" "}
-        </iframe>
+        </iframe> */}
       </div>
     );
   }

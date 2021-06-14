@@ -14,7 +14,7 @@ function App() {
         <Header></Header>
       </div>
 
-      <Intro id="about"></Intro>
+      {/* <Intro id="about"></Intro> */}
 
       <div id="projects">
         <h2>Projects:</h2>
@@ -91,13 +91,13 @@ function App() {
           <p>
             This is a fully functioning image recognition neural network modeled
             in Minecraft. It's based on how our own brains recognize images. It
-            will "read" what's on the input (retina) and make a guess as to
+            will "read" what's on the input like a retina and make a guess as to
             which digit is written. For the most part, it will work with just
             about any numerical digit that you will visually recognize.
           </p>
           <p>
             I found this to be the best way to learn the inner workings of a neural network.
-            It too over 300 hours of hand placing every piece. I spent the time contemplating
+            It took over 300 hours of hand placing every piece. I spent the time contemplating
             the networks from every angle. Dreamt of all the ways I could use these principles 
             to solve unsolvable problems. A purpose was born. 
           </p>

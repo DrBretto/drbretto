@@ -6,13 +6,7 @@ export default class Intro extends React.Component {
       <section id="intro" className="dark window">
         <p>
           Welcome! This website is under construction. I am applying for nuts and bolts work at
-          this time. :) <br />
-          <br /> Above is a brief introduction. Just a brief backstory and
-          preview of my general vibe.
-          <br />
-          <br />
-          Below is a collection of projects with links to source code for
-          review.
+          this time. 
           <br />
           <br /> While I am just looking for my start in this particular field,
           I have been committed to this path for years. I took responsibility
