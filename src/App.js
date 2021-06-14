@@ -14,7 +14,7 @@ function App() {
         <Header></Header>
       </div>
 
-      {/* <Intro id="about"></Intro> */}
+      <Intro id="about"></Intro>
 
       <div id="projects">
         <h2>Projects:</h2>

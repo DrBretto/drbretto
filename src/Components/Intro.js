@@ -17,7 +17,7 @@ export default class Intro extends React.Component {
           <br />
           Now in a state of self-actualization, I am putting the same effort into realizing my potential. I am
           done skating by and wasting my mind. I was meant for this work. My primary motivation for finding a job
-          is to support a lifetime of learning. 
+          is to support a life of learning. 
           <br />
           <br />
           
