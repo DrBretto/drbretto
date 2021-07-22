@@ -14,7 +14,7 @@ function App() {
         <Header></Header>
       </div>
 
-      <Intro id="about"></Intro>
+      {/* <Intro id="about"></Intro> */}
 
       <div id="projects">
         <h2>Projects:</h2>
@@ -79,7 +79,7 @@ function App() {
           technology="React, PostrgreSQL, Node"
         ></Project> */}
 
-        <div className="project dark window">
+        {/* <div className="project dark window">
           <h3>Bonus project: Minecraft Neural Network!</h3>
 
           <iframe
@@ -109,7 +109,7 @@ function App() {
             and originally written for an episode of YouTube Premium's
             MindField. It was built for educational purposes. I learned a lot.
           </p>
-        </div>
+        </div> */}
       </div>
 
       <h2 id="contact">Contact me:</h2>
